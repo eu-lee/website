@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body, #root {
+    @apply h-full;
+  }
+
+  body {
+    @apply m-0 font-mono bg-gradient-to-b from-[#02040a] to-[#071013] text-terminal-text;
+  }
+}
+
+@layer components {
+  .app-root {
+    @apply flex h-screen items-center justify-center;
+  }
+
+  .terminal-root {
+    @apply w-[min(920px,96%)];
+  }
+
+  .terminal {
+    @apply bg-terminal-panel p-4 rounded-lg shadow-2xl h-[70vh] overflow-auto;
+  }
+
+  /* macOS-style titlebar */
+  .titlebar {
+    @apply flex items-center gap-3 mb-3;
+  }
+
+  .circles {
+    @apply flex gap-2 items-center;
+  }
+
+  .titlebar-label {
+    @apply text-terminal-muted text-xs;
+  }
+
+  .circle {
+    @apply w-3 h-3 rounded-full inline-block;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .circle.red {
+    @apply bg-red-500;
+  }
+
+  .circle.yellow {
+    @apply bg-yellow-400;
+  }
+
+  .circle.green {
+    @apply bg-green-600;
+  }
+
+  .titlebar-filler {
+    @apply flex-1;
+  }
+
+  /* Terminal lines */
+  .line {
+    @apply whitespace-pre-wrap flex items-start leading-normal h-[1.4em] gap-0;
+  }
+
+  .content-col {
+    @apply text-terminal-text overflow-hidden text-sm leading-normal flex-1;
+  }
+
+  /* Command input line */
+  .cmdline {
+    @apply flex items-center mt-0 leading-normal h-[1.4em] gap-0;
+  }
+
+  .prompt {
+    @apply text-terminal-prompt text-sm leading-normal inline whitespace-nowrap font-normal;
+  }
+
+  .input {
+    @apply bg-transparent border-none outline-none text-terminal-text font-mono text-sm leading-normal min-w-0 flex-1;
+  }
+
+  .output-pre {
+    @apply text-terminal-muted m-0 text-sm leading-normal;
+  }
+
+  /* Thumbnails */
+  .thumb {
+    @apply mt-3 inline-block cursor-pointer;
+  }
+
+  .thumb svg {
+    @apply w-[480px] max-w-full h-auto rounded-lg;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.6);
+  }
+
+  /* Projects GUI */
+  .projects-gui {
+    @apply flex gap-3 items-start p-2 overflow-auto;
+  }
+
+  .project-card {
+    @apply bg-terminal-dark p-2 rounded-lg w-[280px] cursor-pointer transition-all;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
+  }
+
+  .project-card.selected {
+    @apply -translate-y-1.5 scale-105;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+    outline: 2px solid rgba(34, 197, 94, 0.12);
+  }
+
+  .project-thumb svg {
+    @apply w-full h-auto rounded-md block;
+  }
+
+  .project-meta {
+    @apply pt-2;
+  }
+
+  .project-title {
+    @apply font-bold text-terminal-text;
+  }
+
+  .project-writeup {
+    @apply text-terminal-muted text-xs mt-1.5;
+  }
+}
+
+@media (max-width: 600px) {
+  .terminal {
+    @apply h-[78vh] p-3;
+  }
+
+  .thumb svg {
+    @apply w-80;
+  }
+}

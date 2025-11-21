@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Portfolio Site",
+    "writeup": "A personal portfolio built with modern web tech. Responsive layout, blog, and project pages.",
+    "url": "https://example.com/portfolio",
+    "category": "web",
+    "thumbnail": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='180' viewBox='0 0 320 180'><rect width='100%' height='100%' fill='#0b1226'/><rect x='12' y='12' width='296' height='156' rx='8' fill='#0f1724' stroke='#0ea5a4' stroke-width='2'/><text x='24' y='44' fill='#a7f3d0' font-family='monospace' font-size='16'>Portfolio Site</text><rect x='24' y='64' width='120' height='68' fill='#14213d'/><text x='154' y='100' fill='#94a3b8' font-family='monospace' font-size='12'>A small project preview thumbnail</text></svg>"
+  },
+  {
+    "title": "Tasker App",
+    "writeup": "A productivity task manager with Kanban board and scheduling features.",
+    "url": "https://example.com/tasker",
+    "category": "app",
+    "thumbnail": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='180' viewBox='0 0 320 180'><rect width='100%' height='100%' fill='#081029'/><rect x='12' y='12' width='296' height='156' rx='8' fill='#071133' stroke='#60a5fa' stroke-width='2'/><text x='24' y='44' fill='#bfdbfe' font-family='monospace' font-size='16'>Tasker App</text><rect x='24' y='64' width='80' height='64' fill='#0b1226'/><rect x='112' y='64' width='80' height='28' fill='#0b1226'/></svg>"
+  },
+  {
+    "title": "API Gateway",
+    "writeup": "RESTful API with authentication, rate limiting, and comprehensive documentation.",
+    "url": "https://example.com/api",
+    "category": "backend",
+    "thumbnail": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='180' viewBox='0 0 320 180'><rect width='100%' height='100%' fill='#1a0a2e'/><rect x='12' y='12' width='296' height='156' rx='8' fill='#16213e' stroke='#f72585' stroke-width='2'/><text x='24' y='44' fill='#f72585' font-family='monospace' font-size='16'>API Gateway</text><rect x='24' y='64' width='140' height='68' fill='#0f3460'/></svg>"
+  },
+  {
+    "title": "Data Viz Dashboard",
+    "writeup": "Interactive data visualization dashboard with real-time metrics and charts.",
+    "url": "https://example.com/dashboard",
+    "category": "web",
+    "thumbnail": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='180' viewBox='0 0 320 180'><rect width='100%' height='100%' fill='#0a0e27'/><rect x='12' y='12' width='296' height='156' rx='8' fill='#0d1117' stroke='#58a6ff' stroke-width='2'/><text x='24' y='44' fill='#58a6ff' font-family='monospace' font-size='16'>Data Dashboard</text><rect x='24' y='64' width='50' height='20' fill='#238636'/><rect x='82' y='64' width='50' height='40' fill='#238636'/><rect x='140' y='64' width='50' height='30' fill='#238636'/></svg>"
+  },
+  {
+    "title": "Mobile Chat App",
+    "writeup": "Cross-platform messaging app with end-to-end encryption and file sharing.",
+    "url": "https://example.com/chat",
+    "category": "mobile",
+    "thumbnail": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='180' viewBox='0 0 320 180'><rect width='100%' height='100%' fill='#0f0f1e'/><rect x='12' y='12' width='296' height='156' rx='8' fill='#1a1a2e' stroke='#00d9ff' stroke-width='2'/><text x='24' y='44' fill='#00d9ff' font-family='monospace' font-size='16'>Chat App</text><rect x='24' y='64' width='100' height='20' fill='#16213e' rx='10'/><rect x='24' y='90' width='120' height='20' fill='#0f3460' rx='10'/></svg>"
+  },
+  {
+    "title": "ML Training Suite",
+    "writeup": "Machine learning pipeline for model training, evaluation, and deployment.",
+    "url": "https://example.com/ml",
+    "category": "backend",
+    "thumbnail": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='180' viewBox='0 0 320 180'><rect width='100%' height='100%' fill='#1d0033'/><rect x='12' y='12' width='296' height='156' rx='8' fill='#2d0052' stroke='#bc13fe' stroke-width='2'/><text x='24' y='44' fill='#bc13fe' font-family='monospace' font-size='16'>ML Suite</text><circle cx='70' cy='100' r='15' fill='#8338ec'/><circle cx='120' cy='110' r='12' fill='#8338ec'/><circle cx='160' cy='95' r='18' fill='#8338ec'/></svg>"
+  }
+]
