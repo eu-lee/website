@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react'
 import projects from '../data/projects.json'
-
+// https://liquid-glass-js.com/
 const PROMPT = 'eugene@zsh ~ %'
 
 function OutputLine({ prompt, children }) {
